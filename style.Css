@@ -406,3 +406,135 @@ footer {
 }
 
 /* footer end */
+@media (max-width: 768px) {
+    * {
+        line-height: 1.4;
+        word-spacing: normal;
+    }
+
+    header {
+        height: auto;
+        background-size: contain;
+        padding-bottom: 20px;
+    }
+
+    nav {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+
+    nav a {
+        font-size: 24px;
+        margin: 5px 0;
+    }
+
+    .game-name {
+        font-size: 48px;
+        padding: 20px 10px;
+        line-height: 1.2;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+    }
+
+    #about_project,
+    #concepts {
+        padding: 30px 15px;
+    }
+
+    .block h1 {
+        font-size: 32px !important;
+        padding: 15px 0 !important;
+        text-align: center;
+    }
+
+    .block p {
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: justify;
+    }
+
+    #kroll_about,
+    #hamster-combat-main,
+    #ne-hamster-combat-main {
+        position: static !important;
+        width: 80%;
+        height: auto;
+        margin: 15px auto;
+        display: block;
+    }
+
+    video {
+        width: 100%;
+        height: auto;
+    }
+
+    #hata-mellstroya {
+        width: 100%;
+        height: auto;
+        padding: 15px 0;
+    }
+
+    #concept_info_block,
+    #system_shtuki {
+        grid-template-columns: 1fr;
+    }
+
+    .image_concept img {
+        width: 100%;
+        height: auto;
+    }
+
+    .text_concept {
+        order: 2;
+        padding: 10px 0;
+    }
+
+    .image_concept {
+        order: 1;
+    }
+
+    #div_s_knopoi {
+        text-align: center;
+        padding: 20px;
+    }
+
+    #hamster-combat-button {
+        position: static;
+        width: 60%;
+        margin: 0 auto 20px;
+    }
+
+    #button-install {
+        width: 90%;
+        font-size: 24px;
+        padding: 10px;
+        margin-top: 0;
+    }
+
+    footer .center-h1 {
+        font-size: 36px;
+    }
+
+    #contacts p {
+        font-size: 18px;
+    }
+
+    #social_shtuki i {
+        font-size: 32px;
+        margin: 0 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .game-name {
+        font-size: 36px;
+    }
+    
+    nav a {
+        font-size: 20px;
+    }
+    
+    .block h1 {
+        font-size: 28px !important;
+    }
+}
