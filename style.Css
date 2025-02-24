@@ -420,6 +420,9 @@ footer {
     }
     #div_s_knopoi a{
         text-decoration: none;
+        padding-left: 100px;
+        text-align: center;
+        width: auto;
     }
     header {
         height: auto;
