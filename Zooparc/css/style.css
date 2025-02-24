@@ -359,7 +359,6 @@ footer {
 
   .maps iframe {
     width: 100%;
-    height: 300px;
   }
 
   form[action="autoriseid.php"] {
