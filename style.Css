@@ -438,10 +438,9 @@ footer {
     }
 
     nav {
-        position: absolute;
-        bottom: 20px;
-        width: 100%;
-        padding: 0 15px !important;
+        flex-direction: column;
+        padding: 10px !important;
+        gap: 8px;
     }
 
     nav a {
