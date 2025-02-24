@@ -407,183 +407,126 @@ footer {
 
 /* footer end */
 @media (max-width: 768px) {
+    /* Общие исправления */
+    body {
+        overflow-x: hidden;
+        min-width: 100vw;
+    }
+    
     * {
-        line-height: 1.4;
-        word-spacing: normal;
+        box-sizing: border-box;
     }
-    .center-h1{
-        font-size: 32px;
-        text-align: center;
-        line-height: 90px;
-        padding: 40px;
-        padding-bottom: 30px;
-    }
-    #div_s_knopoi a{
-        text-decoration: none;
-        padding-left: 100px;
-        text-align: center;
-        width: auto;
-    }
+
+    /* Шапка */
     header {
-        height: auto;
         background-size: cover;
+        background-position: center;
+        min-height: 200px;
+        height: auto;
+        padding: 15px;
     }
-    #concepts{
-        width: 100%;
+
+    /* Название игры */
+    header .game-name {
+        font-size: 2.5rem !important;
+        padding-top: 50px !important;
+        text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
     }
+
+    /* Навигация */
     nav {
-        align-items: center;
-        padding: 10px;
+        flex-direction: column;
+        padding: 10px !important;
+        gap: 8px;
     }
 
     nav a {
-        font-size: 24px;
-        margin: 5px 0;
-    }
-    header .game-name{
-        font-size: 48px;
-        padding-top:0px;
-    }
-    .game-name {
-        padding: 20px 10px;
-        line-height: 1.2;
+        font-size: 1.2rem !important;
+        text-align: center;
     }
 
+    /* Основные секции */
     #about_project,
     #concepts {
-        padding: 30px 15px;
-        width: 100%;
+        padding: 30px 15px !important;
+        width: 100vw !important;
+        margin-left: -15px;
+        margin-right: -15px;
     }
 
-    .block h1 {
-        font-size: 32px !important;
-        padding: 15px 0 !important;
-        text-align: center;
+    /* Блоки с контентом */
+    .block {
+        width: 100% !important;
+        padding: 15px !important;
     }
 
     .block p {
-        font-size: 18px;
-        line-height: 1.5;
-        text-align: justify;
+        font-size: 1rem !important;
+        line-height: 1.5 !important;
+        padding: 0 !important;
     }
 
+    /* Изображения */
     #kroll_about,
     #hamster-combat-main,
-    #ne-hamster-combat-main {
-        position: static !important;
-        width: 80%;
-        height: auto;
-        margin: 15px auto;
-        display: block;
-    }
-
-    video {
-        width: 100%;
-        height: auto;
-    }
-
-    #hata-mellstroya {
-        width: 100%;
-        height: auto;
-        padding: 15px 0;
-    }
-
-    #concept_info_block,
-    #system_shtuki {
-        grid-template-columns: 1fr;
-    }
-
+    #ne-hamster-combat-main,
     .image_concept img {
-        width: 100%;
+        position: static !important;
+        width: 100% !important;
+        height: auto !important;
+        margin: 15px 0;
+        transform: none !important;
+    }
+
+    /* Видео */
+    video {
+        width: 100% !important;
         height: auto;
     }
 
-    .text_concept {
-        order: 2;
-        padding: 10px 0;
+    /* Системные требования */
+    #system_shtuki {
+        grid-template-columns: 1fr !important;
+        gap: 15px;
     }
 
-    .image_concept {
-        order: 1;
+    /* Футер */
+    footer {
+        width: 100vw !important;
+        padding: 20px 15px !important;
+        margin: 0 -15px;
     }
 
     #div_s_knopoi {
-        text-align: center;
-        padding: 20px;
+        width: 100% !important;
+        padding: 15px !important;
+    }
+
+    #button-install {
+        width: 100% !important;
+        font-size: 1.2rem !important;
+        padding: 10px !important;
+        margin-top: 0 !important;
     }
 
     #hamster-combat-button {
-        position: static;
-        width: 60%;
-        margin: 0 auto 20px;
-    }
-
-    #button-install {
-        width: 90%;
-        font-size: 24px;
-        padding: 10px;
-        margin-top: 0;
-    }
-
-    footer .center-h1 {
-        font-size: 36px;
-    }
-
-    #contacts p {
-        font-size: 18px;
-    }
-
-    #social_shtuki i {
-        font-size: 32px;
-        margin: 0 10px;
-    }
-    footer {
-        width: 100%;
-        max-width: 100vw; /* Добавляем ограничение по ширине вьюпорта */
-        overflow-x: hidden; /* Скрываем горизонтальный скролл */
-        box-sizing: border-box; /* Учитываем padding в общей ширине */
-    }
-    
-    /* Для родительского контейнера */
-    body {
-        overflow-x: hidden; /* Предотвращаем горизонтальный скролл на всей странице */
-        display: flex;
-        flex-direction: column;
-        min-height: 100vh;
-    }
-    
-    /* Переработанная секция футера */
-    footer {
-        margin-top: auto; /* Прижимаем футер к низу */
-        background-color: black;
-        padding: 20px 0; /* Добавляем внутренние отступы */
-    }
-    
-    /* Исправляем контейнер с кнопкой */
-    #div_s_knopoi {
-        width: 100%;
-        box-sizing: border-box;
-        padding: 20px 15px; /* Адаптивные отступы */
-    }
-    
-    #button-install {
-        max-width: 100%;
+        width: 50% !important;
         margin: 0 auto;
-        padding-left: 0; /* Убираем лишний отступ */
-        justify-content: center; /* Центрируем текст */
     }
 }
 
 @media (max-width: 480px) {
-    .game-name {
-        font-size: 36px;
+    header .game-name {
+        font-size: 2rem !important;
     }
     
-    nav a {
-        font-size: 20px;
+    .center-h1 {
+        font-size: 1.5rem !important;
+        line-height: 1.3 !important;
+        padding: 20px !important;
     }
     
-    .block h1 {
-        font-size: 28px !important;
+    #button-install {
+        font-size: 1rem !important;
     }
 }
