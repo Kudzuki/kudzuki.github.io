@@ -393,6 +393,7 @@ footer {
 
   p {
     font-size: 16px;
+    margin:0px;
   }
 
   .logo h1 {
@@ -415,7 +416,7 @@ footer {
   .animal_images img,
   .animal_images_three img,
   .animal_images_four img {
-    width: 378px;
+    width: 250px;
     height: auto;
     margin: 10px 0;
   }
