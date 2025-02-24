@@ -453,6 +453,7 @@ footer {
     #about_project,
     #concepts {
         padding: 30px 15px;
+        width: 100%;
     }
 
     .block h1 {
