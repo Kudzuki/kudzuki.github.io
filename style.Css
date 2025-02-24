@@ -411,7 +411,15 @@ footer {
         line-height: 1.4;
         word-spacing: normal;
     }
-
+    .center-h1{
+        text-align: center;
+        line-height: 90px;
+        padding: 40px;
+        padding-bottom: 30px;
+    }
+    #div_s_knopoi a{
+        text-decoration: none;
+    }
     header {
         height: auto;
         background-size: contain;
