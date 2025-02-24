@@ -426,8 +426,7 @@ footer {
     }
     header {
         height: auto;
-        background-size: contain;
-        padding-bottom: 20px;
+        background-size: cover;
     }
     #concepts{
         width: 100%;
