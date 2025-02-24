@@ -390,9 +390,6 @@ footer {
   h1 {
     font-size: 28px;
   }
-  .logo {
-    width:321px;
-  }
   p {
     font-size: 16px;
     margin:0px;
@@ -407,6 +404,7 @@ footer {
   }
   .text,.text_animal,.text_three{
     width: 321px;
+    padding:0px;
   }
   .submit {
     width: 90%;
