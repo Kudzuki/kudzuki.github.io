@@ -412,6 +412,7 @@ footer {
         word-spacing: normal;
     }
     .center-h1{
+        font-size: 32px;
         text-align: center;
         line-height: 90px;
         padding: 40px;
