@@ -537,6 +537,9 @@ footer {
         font-size: 32px;
         margin: 0 10px;
     }
+    footer{
+        width:100%;
+    }
 }
 
 @media (max-width: 480px) {
