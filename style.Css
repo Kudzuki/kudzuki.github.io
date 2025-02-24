@@ -418,7 +418,6 @@ footer {
     }
 
     header {
-        background-size: cover;
         background-position: center;
         min-height: 300px;
         padding: 0;
