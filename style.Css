@@ -417,26 +417,31 @@ footer {
         box-sizing: border-box;
     }
 
-    /* Шапка */
     header {
         background-size: cover;
         background-position: center;
-        min-height: 200px;
-        height: auto;
-        padding: 15px;
+        width: 100vw;
+        height: 100vh; /* Занимает всю высоту экрана */
+        min-height: 300px;
+        padding: 0;
+        margin: 0 -15px; /* Компенсируем padding body */
     }
 
-    /* Название игры */
     header .game-name {
-        font-size: 2.5rem !important;
-        padding-top: 50px !important;
+        padding-top: 20vh !important; /* Центрируем по вертикали */
+        font-size: 3rem !important;
+        text-align: center;
+        line-height: 1.2;
+        width: 100%;
+        padding-left: 15px;
+        padding-right: 15px;
     }
 
-    /* Навигация */
     nav {
-        flex-direction: column;
-        padding: 10px !important;
-        gap: 8px;
+        position: absolute;
+        bottom: 20px;
+        width: 100%;
+        padding: 0 15px !important;
     }
 
     nav a {
@@ -535,6 +540,11 @@ footer {
 @media (max-width: 480px) {
     header .game-name {
         font-size: 2rem !important;
+        padding-top: 25vh !important;
+    }
+    
+    nav a {
+        font-size: 1rem !important;
     }
     
     .center-h1 {
