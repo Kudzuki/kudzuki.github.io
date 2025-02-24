@@ -1,0 +1,422 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  /* background-image: linear-gradient(
+    70deg,
+    #2E3343 30%,
+    #445616 53%,
+    #2E3343 85%
+  ); */
+  background: linear-gradient(to right, #134e5e, #71b280);
+  /* background-image: linear-gradient(to top, #2E3343 0%, #2E3343 30%, #445616 46%, #445616 59%, #2E3343 71%, #445616 86%, #2E3343 100%); */
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100%;
+}
+.logo img {
+  margin-left: 182px;
+  width: 160px;
+  height: 160px;
+}
+.logo {
+  background-color: #09292f;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  color: white;
+  font-size: 32px;
+  font-family: "Rubik";
+}
+.top {
+  margin-top: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+.button ul {
+  margin-left: 50px;
+  color: #45c470;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 46px;
+}
+
+.button ul a{
+  margin-right: 100px;
+}
+a {
+  margin-right: 200px;
+  color: white;
+  font-size: 22px;
+  text-decoration: none;
+  font-family: "Nunito";
+  font-weight: bold;
+}
+p {
+  margin-right: 10px;
+  font-family: "Rubik";
+  font-size: 22px;
+  color: white;
+}
+.info {
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-top: 26px;
+}
+.animal_images img {
+  width: 685px;
+  height: 514px;
+  border-radius: 20px;
+}
+.animal_images .text_animal{
+  margin-left: 120px;
+}
+.animal_images {
+  display: flex;
+  justify-content: space-between;
+}
+.animal_images_three {
+  margin-top: 217px;
+  display: flex;
+  justify-content: space-between;
+}
+.text_three {
+  width: 700px;
+  display: grid;
+  align-content: space-evenly;
+}
+.animal_images_three img {
+  width: 685px;
+  height: 514px;
+  border-radius: 20px;
+}
+.animal_images_two {
+  margin-top: 106px;
+  display: flex;
+  justify-content: space-between;
+}
+.animal_images_two .img .img_one {
+  width: 700px;
+  height: 208px;
+  border-radius: 20px;
+}
+.animal_images_two .img .img_two img {
+  width: 281px;
+  height: 278px;
+  border-radius: 20px;
+}
+.animal_images_two .img .img_two .garila{
+  margin-left: 135px;
+}
+.animal_images_two .img .img_two {
+  display: flex;
+}
+.text {
+  width: 700px;
+  display: grid;
+  align-content: space-evenly;
+}
+h1 {
+  color: white;
+  font-size: 38px;
+  font-family: "Rubik";
+  font-weight: bold;
+}
+.submit {
+  color: white;
+  background-color: #36944c;
+  border-radius: 28px;
+  border: 0px;
+  height: 51px;
+  width: 100%;
+  font-family: "Nunito";
+  font-size: 20px;
+  font-weight: bolder;
+}
+.submit:hover {
+  background-color: #2b703b;
+  opacity: 0.95;
+}
+.animal_images_four {
+  margin-top: 106px;
+  display: flex;
+  justify-content: space-between;
+}
+.animal_images_four img {
+  width: 710px;
+  height: 472;
+  border-radius: 20px;
+}
+.search {
+  display: grid;
+}
+.search input {
+  margin-bottom: 16px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 20px;
+  border: gray solid 1px;
+  padding: 21px;
+  width: 100%;
+  font-size: 16px;
+}
+.maps {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 25px;
+}
+.maps h2 {
+  color: white;
+  font-size: 38px;
+  font-family: "Rubik";
+  font-weight: bold;
+  text-align: center;
+}
+.boot {
+  text-align: center;
+}
+.boot a{
+  margin: 0;
+}
+.boot a img{
+  margin-bottom: -9px;
+}
+.boot img:hover {
+  opacity: 0.8;
+}
+
+.boot img:active {
+  transform: scale(0.95);
+}
+footer {
+  text-align: center;
+  background-color: #09292f;
+  padding: 25px;
+}
+.social_shtuki h2 {
+  color: white;
+  font-size: 38px;
+  font-family: "Rubik";
+  font-weight: bold;
+}
+.social_shtuki i,
+.social {
+  text-align: center;
+  font-size: 50px;
+  margin: 10px;
+}
+.social_shtuki i:hover {
+  color: rgb(102, 102, 102);
+}
+.popugai_one {
+  position: absolute;
+  width: 640px;
+  height: 640px;
+  left: -350px;
+  top: 1500px;
+  transform: rotate(-11.35deg);
+}
+.animal_images div .popugai_two {
+  position: absolute;
+  width: 403px;
+  height: 517px;
+  left: 1500px;
+  top: 157px;
+  transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.search input[type="search"] {
+  color: #ffffff;
+  font-family: "Rubik";
+  font-size: 16px;
+}
+.karto_tovar {
+  display: flex;
+  justify-content: space-between;
+}
+.karto_tovar div {
+  height: 20%;
+  width: 20%;
+  background-color: rgba(128, 128, 128, 0.301);
+  border-radius: 20px;
+  color: white;
+}
+.karto_tovar div img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+}
+.karto_tovar div h2 {
+  text-align: center;
+  font-family: "Rubik";
+  font-weight: bold;
+}
+.karto_tovar div p{
+  padding: 20px;
+}
+.personal_date{
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1560px) {
+  .top {
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .logo {
+    width: 100%;
+    padding-left: 10px 0px;
+  }
+
+  .logo img {
+    width: 150px;
+    height: 1 50px;
+    margin-left: 0;
+  }
+  .logo h1{
+    font-size: 40px;
+  }
+
+  .button ul {
+    flex-direction: column;
+    align-items: center;
+    margin: 20px 0;
+  }
+  .button ul a{
+    margin:0px;
+  }
+  .button a {
+    margin: 10px 0;
+    font-size: 22px;
+  }
+
+  .animal_images,
+  .animal_images_two,
+  .animal_images_three,
+  .animal_images_four {
+    flex-direction: column;
+    align-items: center;
+  }
+  .animal_images .text_animal{
+    margin: 0px;
+  }
+  .animal_images .text_animal h1{
+    text-align: center;
+  }
+  .animal_images img,
+  .animal_images_three img,
+  .animal_images_four img {
+    width: 100%;
+    height: auto;
+    margin: 10px 0;
+  }
+
+  .text,
+  .text_three {
+    width: 100%;
+    padding: 0 15px;
+    text-align: center;
+  }
+  .text p,
+  .text_three p{
+    text-align: left;
+  }
+  .karto_tovar {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .karto_tovar div {
+    width: 90%;
+    margin: 10px 0;
+    background-color: rgba(128, 128, 128, 0.308);
+  }
+
+  .karto_tovar div img {
+    height: auto;
+  }
+
+  .karto_tovar div h2,
+  .karto_tovar div p {
+    text-align: center;
+    font-size: 18px;
+  }
+
+  .service-item {
+    width: 90%;
+    margin: 10px 0;
+  }
+
+  .search input {
+    width: 90%;
+    margin: 10px auto;
+  }
+
+  .maps iframe {
+    width: 100%;
+    height: 300px;
+  }
+
+  form[action="autoriseid.php"] {
+    text-align: center;
+    margin: 15px 0;
+  }
+
+  a{
+    margin: 0px;
+  }
+  .serch {
+    text-align: center !important;
+    margin: 10px 0;
+  }
+
+  .popugai_one {
+    display: none;
+  }
+  .animal_images_two .img  {
+    display: none;
+  }
+  .boot img{
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 28px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+
+  .logo h1 {
+    font-size: 26px;
+  }
+
+  .button a {
+    font-size: 16px;
+  }
+  .text,.text_animal,.text_three{
+    width: 321px;
+  }
+  .submit {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .animal_images_two .img {
+    display: none;
+  }
+  .animal_images img,
+  .animal_images_three img,
+  .animal_images_four img {
+    width: 378px;
+    height: auto;
+    margin: 10px 0;
+  }
+}
