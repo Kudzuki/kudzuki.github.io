@@ -300,7 +300,7 @@ footer {
   .animal_images_four {
     flex-direction: column;
     align-items: center;
-    margin-top: 106;
+    margin-top: 106px;
   }
   .animal_images .text_animal{
     margin: 0px;
