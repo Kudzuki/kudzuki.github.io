@@ -513,6 +513,9 @@ footer {
         width: 50% !important;
         margin: 0 auto;
     }
+    h1{
+        font-size:32px;
+    }
 }
 
 @media (max-width: 480px) {
