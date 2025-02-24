@@ -426,7 +426,9 @@ footer {
         background-size: contain;
         padding-bottom: 20px;
     }
-
+    #concepts{
+        width: 100%;
+    }
     nav {
         align-items: center;
         padding: 10px;
