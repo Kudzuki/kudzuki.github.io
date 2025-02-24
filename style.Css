@@ -420,7 +420,6 @@ footer {
     header {
         background-size: cover;
         background-position: center;
-        height: 100vh; /* Занимает всю высоту экрана */
         min-height: 300px;
         padding: 0;
         margin: 0 -15px; /* Компенсируем padding body */
@@ -536,7 +535,6 @@ footer {
 @media (max-width: 480px) {
     header .game-name {
         font-size: 2rem !important;
-        padding-top: 25vh !important;
     }
     
     nav a {
