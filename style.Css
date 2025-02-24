@@ -516,6 +516,10 @@ footer {
     h1{
         font-size:32px;
     }
+    #hata-mellstroya{
+        width: 80%;
+        height: auto;
+    }
 }
 
 @media (max-width: 480px) {
